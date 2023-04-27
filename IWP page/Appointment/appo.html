@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Appointment page</title>
+    <link rel="icon" href="..\favicon.ico">
+    <link rel="stylesheet" href="..\Appointment\appo.css">
+</head>
+<body>
+  <div id="top-div">
+    <p>
+      Toll free numbers: (+789)-569881, (+91)-589266
+    </p>
+  </div>
+  <header>
+    <img src="..\logo-2.png" alt="logo" id="logo">
+    <nav>
+      <ul>
+        <a href="..\home\index.html"><li>
+          Home
+        </li></a>
+        <a href="..\aboutt\aboutus.html"><li>
+          About Us
+        </li></a>
+        <a href="..\contact us\contact.html"><li>
+          Contact Us
+        </li></a>
+      </ul>
+    </nav>
+  </header>
+  <div id="bt-div">
+  </div>
+
+<br>
+  <div class="row">
+      <div class="Doctor Appointment">
+          <h1 class="text-center">Doctor Appointment</h1>
+              <p>
+                  <ul>
+                      <li>Any appointment can be made for the current day or for a future date.</li>
+                      <li>No two appointments should overlap. If an appointment already exists for a day, a warning should be shown.</li>
+                  </ul>
+              </p>
+      </div>
+  </div>
+
+  <form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8">
+    <fieldset>
+      <legend>For person</legend>
+      <label>
+        Name
+        <input type="text" name="name" required>
+      </label>
+      <div class="two-cols">
+        <label>
+          Email address
+          <input type="email" name="email" required>
+        </label>
+         <div class="two-cols">
+        <label>
+          Phone number
+          <input type="tel" name="phone">
+        </label>
+        <div class="two-cols">
+        <label>
+          Hospital Name
+          <input type="Hospital" name="Hospital" required>
+        </label>
+        <div class="two-cols">
+        <label>
+          Doctor Name
+          <input type="Doctor" name="Doctor" required>
+        </label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Appointment request</legend>
+      <div class="two-cols">
+        <label>
+          Date
+          <input type="date" name="Appointment request" required>
+        </label>
+        <div class="inline">
+        <div class="two-cols">
+          <label>
+            <input type="hidden" name="Morning desired" value="no">
+            <input type="checkbox" name="Morning desired" value="yes">
+            Morning
+          </label>
+          <label>
+            <input type="hidden" name="Afternoon desired" value="no">
+            <input type="checkbox" name="Afternoon desired" value="yes">
+            Afternoon
+          </label>
+        </div>
+      </div>
+      <p>Confirmation requested by</p>
+      <div class="inline">
+        <label>
+          <input type="radio" name="Confirmation requested by" value="email" checked>
+          Email
+        </label>
+        <label>
+          <input type="radio" name="Confirmation requested by" value="phone">
+          Phone call
+        </label>
+      </div>
+    </fieldset>
+    <div class="btns">
+      <input type="text" name="_gotcha" value="" style="display:none;">
+      <input type="submit" value="Submit request">
+    </div>
+  </form>
+
+
+</body>
+
+</html>

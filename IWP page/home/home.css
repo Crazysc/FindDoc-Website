@@ -1,0 +1,143 @@
+img {
+    max-width: 100%;
+}
+
+body{
+  /*margin-top: 0;*/
+  margin: 0;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+  color: #052049;
+}
+#top-div{
+  height: 25px;
+  background-color: #506380;
+}
+#top-div ul{
+  margin-top:0;
+  color: white;
+  font-size: 0.em;
+
+  padding-top: 2px;
+  margin-left: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  list-style-type: none;
+}
+#logo{
+  height: 80px;
+  width: 90px;
+}
+header{
+  margin-top:0;
+  height: 81px;
+  width: 100%;
+}
+nav{
+  margin-top: 0;
+  width: 70%;
+  float: right;
+  padding-top: 0px;
+  height: 80px;
+}
+nav ul{
+  margin-left: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav a{
+  font-size: 1.1em;
+  padding: 20px 22px;
+  font-weight: lighter;
+}
+
+nav a:link,nav a:visited,nav a:hover,nav a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+#top-div a:link,#top-div a:visited,#top-div a:hover,#top-div a:active
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#bt-div{
+  background-color: yellow;
+  position: relative;
+  height: 5px;
+}
+
+#div1{
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width:10px;
+  border-color: #25316D;
+}
+
+#img1{
+  border-right-style:solid;
+  border-right-width: 5px;
+  border-color: #506380;
+}
+
+#div1-1{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  width: 30%;
+  top: 300px;
+  right: 10px;
+  font-size: x-large;
+  height: 300px;
+  border-bottom-style: dotted;
+  border-bottom-width: 7px;
+}
+
+#div1-1 p{
+  font-weight: bold;
+  font-size: large;
+}

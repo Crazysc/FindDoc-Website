@@ -1,0 +1,109 @@
+img {
+    max-width: 100%;
+}
+
+body{
+  /*margin-top: 0;*/
+  margin: 0;
+  font-family: helvetica neue,Helvetica,Arial,sans-serif;
+  color: #052049;
+  padding- left: 10px;
+}
+#top-div{
+  height: 25px;
+  background-color: #506380;
+}
+#top-div p{
+  margin-top:0;
+  padding-right: 5px;
+  padding-top: 5px;
+  color: white;
+  text-align: right;
+  font-size: 0.8em;
+}
+#logo{
+  height: 80px;
+  width: 90px;
+}
+
+header{
+  margin-top:0;
+  height: 81px;
+  width: 100%;
+}
+nav{
+  margin-top: 0;
+  width: 70%;
+  float: right;
+  padding-top: 0px;
+  height: 80px;
+}
+nav ul{
+  margin-left: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav a{
+  font-size: 1.1em;
+  padding: 20px 22px;
+  font-weight: lighter;
+}
+
+#img1, #img2{
+  position:relative;
+  height: 700px;
+  width: 1519px;
+}
+
+#first{
+  font-family: Optimanova;
+  position: absolute;
+  font-size: large;
+  top: 350px;
+  left: 50px;
+  padding-left: 20px;
+  width: 35%;
+  float: right;
+  margin-bottom: 0;
+}
+
+#second{
+  font-family: Optimanova;
+  position: absolute;
+  font-size: large;
+  top: 1100px;
+  right: 50px;
+  padding-left: 20px;
+  width: 35%;
+}
+
+
+nav a:link,nav a:visited,nav a:hover,nav a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+#bt-div{
+  background-color: yellow;
+  position: relative;
+  height: 5px;
+}
+
+#mid-div{
+  height: 10px;
+  background-color: #21ffed;
+}
+
+footer{
+  position: fixed;
+  height: 30px;
+  bottom: 0;
+  font-size: small;
+  font-family: sans-serif;
+  background-color: yellow;
+  width: 100%;
+  color: #130457;
+}

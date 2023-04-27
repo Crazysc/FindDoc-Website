@@ -1,0 +1,19 @@
+Revising of notes
+
+
+Everyone have to show different pages for review 1 just basic HTML CSS
+You9:29 PM
+Functionalities:
+1. Find the doctor
+Urgent Care
+You9:31 PM
+Basic medical form
+(Login/And signup)
+Mithun Chowdary9:32 PM
+booking or billing
+You9:34 PM
+*Locate a hospital
+Mithun Chowdary9:34 PM
+Finding hospital - Find directions and details
+You9:34 PM
+with availability
